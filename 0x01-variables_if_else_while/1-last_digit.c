@@ -22,11 +22,11 @@ if (d > 5)
 {
 	printf("and is greater than 5");
 }
-if (d == 0)
+else if (d == 0)
 {
 	printf("and is 0");
 }
-if (d < 6 && d != 0)
+else if (d < 6 && d != 0)
 {
 	printf("and is less than 6 and not 0");
 }
