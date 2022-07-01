@@ -12,7 +12,13 @@
 
 int main(void)
 {
-int n;
+int ch;
+
+for (ch = 0; ch <= 122; ch++)
+{
+putchar(ch);
+}
+putchar(10);
 
 return (0);
 }
