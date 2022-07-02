@@ -28,7 +28,7 @@ for (ch1 = 48; ch1 <= 56; ch1++)
 				putchar(44);
 				putchar(32);
 			}
-		}	
+		}
 	}
 }
 putchar(10);
