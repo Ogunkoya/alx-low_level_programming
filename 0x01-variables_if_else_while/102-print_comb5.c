@@ -1,59 +1,109 @@
-#include <stdio.h>
-#include <stdlib.h>
 /**
-* main - main block
-*
-* Description: Write a program that prints all possible
-*
-* different combinations of two digits
-*
-* Return: 0
-*
-*/
 
-int main(void)	
-{
-int ch1;
-int ch2;
-int ch3;
-int ch4;
+ * main - Entry point
 
-ch4 = 0;
-while (ch4 < 10)
+ *
+
+ * Return: Always 0 
+ */
+
+#include <stdio.h>
+
+/* more headers goes there */
+
+/* betty style doc for function main goes there */
+
+/**
+
+ * main - Entry point
+
+ *
+
+ * Return: Always 0 (Success)
+
+ */
+
+int main(void)
+  
 {
-	ch3 = 0;
-	while (ch3 < 10)
+  
+  int p = 48, q = 48, y = 48, x = 49;
+  
+
+  
+  while (p < 58)
+    
+    {
+      
+      while (q < 58)
+	
 	{
-		ch2 = 0;
-		while (ch2 < 10)
+	  
+	  while (y < 58)
+	    
+	    {
+	      
+	      while (x < 58)
+		
 		{
-			ch1 = 0;
-			while (ch1 < 10)
-			{
-				if (!(ch4 == ch1 && ch3 == ch2))
-				{
-					putchar('0' + ch4);
-					putchar('0' + ch3);
-					putchar(32);
-					putchar('0' + ch2);
-					putchar('0' + ch1);
-					if (!(ch4 + ch3 == 18 && ch1 + ch2 == 17 && ch2 == 9))
-					{
-						putchar(44);
-						putchar(32);
-					}
-				}
-				ch1++;
-			}
-			ch2++;
+		  
+		  putchar(p);
+		  
+		  putchar(q);
+		  
+		  putchar(' ');
+		  
+		  putchar(y);
+		  
+		  putchar(x);
+		  
+		  if (!(p == 57 &&
+			
+			q == 56 &&
+			
+			y == 57 &&
+			
+			x == 57))
+		    
+		    {
+		      
+		      putchar(',');
+		      
+		      putchar(' ');
+		      
+		    }
+		  
+		  x++;
+		  
 		}
-		ch3++;
+	      
+	      y++;
+	      
+	      x = 48;
+	      
+	    }
+	  
+	  q++;
+	  
+	  q = p;
+	  
+	  x = q + 1;
+	  
 	}
-	ch4++;
+      
+      p++;
+      
+      q = 48;
+      
+      y = p;
+      
+      x = q+ 1;
+      
+    }
+  
+  putchar('\n');
+  
+  return (0);
+  
 }
-
-putchar(10);
-
-return (0);
-
-}
+  
