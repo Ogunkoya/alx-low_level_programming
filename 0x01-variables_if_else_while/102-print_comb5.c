@@ -34,13 +34,13 @@ while (ch4 < 10)
 				{
 					putchar('0' + ch4);
 					putchar('0' + ch3);
-					putchar(44);
+					putchar(32);
 					putchar('0' + ch2);
 					putchar('0' + ch1);
 					if (!(ch4 + ch3 == 18 && ch1 + ch2 == 17 && ch2 == 9))
 					{
-						putchar(32);
 						putchar(44);
+						putchar(32);
 					}
 				}
 				ch1++;
