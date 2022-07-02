@@ -21,7 +21,7 @@ putchar(ch);
 }
 for (ch1 = 65; ch1 <= 90; ch++)
 {
-putchar(ch1)
+putchar(ch1);
 }
 putchar(10);
 
