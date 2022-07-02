@@ -19,7 +19,7 @@ int ch3;
 int ch4;
 
 ch4 = 0;
-while (f < 10)
+while (ch4 < 10)
 {
 	ch3 = 0;
 	while (ch3 < 10)
