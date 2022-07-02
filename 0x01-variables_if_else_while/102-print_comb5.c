@@ -23,7 +23,7 @@ for (ch1 = 48; ch1 <= 57; ch1++)
 	{
 		for (ch3 = 48; ch3 <= 57; ch3++)
 		{
-			for (ch4 = 49; ch4 <= 57)
+			for (ch4 = 49; ch4 <= 57; ch4++)
 			{
 				putchar(ch1);
 				putchar(ch2);
