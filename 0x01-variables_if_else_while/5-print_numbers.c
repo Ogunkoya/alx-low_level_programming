@@ -16,7 +16,7 @@ int n;
 
 for (n = 1; n <= 9; n++)
 {
-	printf("%d", n)
+	printf("%d", n);
 }
 putchar(10);
 
