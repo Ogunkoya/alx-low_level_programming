@@ -1,44 +1,59 @@
-#include <stdlib.h>
-#include <time.h>
 #include <stdio.h>
-
+#include <stdlib.h>
 /**
-* main - Entry point
+* main - main block
 *
-* Description: 'the program's description'
+* Description: Write a program that prints all possible
 *
-* Return: Always 0 (Success)
+* different combinations of two digits
+*
+* Return: 0
+*
 */
 
-int main(void)
+int main(void)	
 {
 int ch1;
 int ch2;
 int ch3;
 int ch4;
 
-for (ch1 = 48; ch1 <= 57; ch1++)
+ch4 = 0;
+while (f < 10)
 {
-	for (ch2 = 48; ch2 <= 56; ch2++)
+	ch3 = 0;
+	while (ch3 < 10)
 	{
-		for (ch3 = 48; ch3 <= 57; ch3++)
+		ch2 = 0;
+		while (ch2 < 10)
 		{
-			for (ch4 = 49; ch4 <= 57; ch4++)
+			ch1 = 0;
+			while (ch1 < 10)
 			{
-				putchar(ch1);
-				putchar(ch2);
-				putchar(32);
-				putchar(ch3);
-				putchar(ch4);
-				if (ch1 != 57 || ch2 != 56 || ch3 != 57 || ch4 != 57)
+				if (!(ch4 == ch1 && ch3 == ch2))
 				{
+					putchar('0' + ch4);
+					putchar('0' + ch3);
 					putchar(44);
+					putchar('0' + ch2);
+					putchar('0' + ch1);
+					if (!(ch4 + ch3 == 18 && ch1 + ch2 == 17 && ch2 == 9))
+					{
+						putchar(32);
+						putchar(44);
+					}
 				}
+				ch1++;
 			}
+			ch2++;
 		}
+		ch3++;
 	}
+	ch4++;
 }
+
 putchar(10);
 
 return (0);
+
 }
