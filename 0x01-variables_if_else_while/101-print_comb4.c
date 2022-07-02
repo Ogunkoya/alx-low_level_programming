@@ -19,7 +19,7 @@ int ch3;
 for (ch1 = 48; ch1 <= 57; ch1++)
 {
 	for (ch2 = 49; ch2 <= 57; ch2++)
-		for (ch3 = 50; ch3 <= 57; ch++)
+		for (ch3 = 50; ch3 <= 57; ch3++)
 		{
 			{
 				if (ch2 > ch1 && ch3 > ch2)
