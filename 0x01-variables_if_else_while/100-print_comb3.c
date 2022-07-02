@@ -17,7 +17,7 @@ int ch2;
 
 for (ch1 = 48; ch1 <= 57; ch1++)
 {
-	for (ch2 = 0; ch2 <= 57; ch2++)
+	for (ch2 = 48; ch2 <= 57; ch2++)
 	{
 		putchar(ch1);
 		putchar(ch2);
