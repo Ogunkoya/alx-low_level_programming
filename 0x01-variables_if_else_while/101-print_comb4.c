@@ -27,7 +27,7 @@ for (ch1 = 48; ch1 <= 57; ch1++)
 					putchar(ch1);
 					putchar(ch2);
 					putchar(ch3);
-					if (ch1 != 56 || ch2 != 57)
+					if (ch1 != 55 || ch2 != 56)
 					{
 						putchar(44);
 						putchar(32);
