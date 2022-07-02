@@ -27,12 +27,12 @@ for (ch1 = 48; ch1 <= 57; ch1++)
 			{
 				putchar(ch1);
 				putchar(ch2);
-				putchar(44);
+				putchar(32);
 				putchar(ch3);
 				putchar(ch4);
 				if (ch1 != 57 && ch2 != 56 && ch3 != 57 && ch4 != 57)
 				{
-					putchar(32);
+					putchar(44);
 				}
 			}
 		}
