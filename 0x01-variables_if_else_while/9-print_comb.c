@@ -21,6 +21,7 @@ putchar(ch);
 	{
 		putchar(44);
 		putchar(32);
+	}
 }
 putchar(10);
 
