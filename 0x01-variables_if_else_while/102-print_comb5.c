@@ -21,11 +21,8 @@ for (ch1 = 48; ch1 <= 57; ch1++)
 	{
 		putchar(ch1);
 		putchar(ch2);
-		if (ch1 != 57 || ch2 != 57)
-		{
-			putchar(44);
-			putchar(32);
-		}
+		putchar(44);
+		putchar(32);}
 	}
 }
 putchar(10);
