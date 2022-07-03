@@ -21,12 +21,12 @@ int main(void)
 		{
 			if (ch1 < ch2)
 			{
-				putchar(i / 10 + '0');
-				putchar(i / 10 + '0');
+				putchar(ch1 / 10 + '0');
+				putchar(ch1 / 10 + '0');
 				putchar(32);
-				putchar(j / 10 + '0');
-				putchar(j / 10 + '0');
-					if ((i * 100) + j != 9899)
+				putchar(ch2 / 10 + '0');
+				putchar(ch2 / 10 + '0');
+					if ((ch1 * 100) + ch2 != 9899)
 					{
 						putchar(32);
 						putchar(44);
