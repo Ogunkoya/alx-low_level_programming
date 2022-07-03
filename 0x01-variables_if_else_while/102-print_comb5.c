@@ -15,31 +15,26 @@ int main(void)
 {
 	int ch1;
 	int ch2;
-	int ch3;
-	int ch4;
-	for (ch1 = 48; ch1 <= 57; ch1++)
+	for (ch1 = 0; ch1 < 100; ch1++)
 	{
-		for (ch2 = 48; ch2 <= 56; ch2++)
-		{						
-			for (ch3 = 48; ch3 <= 57; ch3++)
+		for (ch2 = 0; ch2 < 100; ch2++)
+		{
+			if (ch1 < ch2)
 			{
-				for (ch4 = 49; ch4 <= 57; ch4++)
-				{
-					putchar(ch1);
-					putchar(ch2);
-					putchar(32);
-					putchar(ch3);
-					putchar(ch4);
-					if (ch1 != 57 && ch2 != 56 && ch3 != 57
-							&& ch4 != 57)
+				putchar(i / 10 + '0')
+				putchar(i / 10 + '0')
+				putchar(32)
+				putchar(j / 10 + '0')
+				putchar(j / 10 + '0')
+					if ((i * 100) + j != 9899)
 					{
-						putchar(44);
+						putchar(32)
+						putchar(44)
 					}
-				}
 			}
 		}
 	}
-	putchar(10);
+putchar(10);
 	
 return (0);
 }
