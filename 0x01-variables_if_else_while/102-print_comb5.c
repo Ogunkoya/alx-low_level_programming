@@ -28,8 +28,8 @@ int main(void)
 				putchar(ch2 % 10 + '0');
 					if ((ch1 * 100) + ch2 != 9899)
 					{
-						putchar(32);
 						putchar(44);
+						putchar(32);
 					}
 			}
 		}
