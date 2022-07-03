@@ -5,8 +5,8 @@
 /**
 * main - Entry point
 *
-* Description: 'the program's description'*
-* 
+* Description: 'the program's description'
+*
 * Return: Always 0 (Success)
 *
 */
@@ -15,6 +15,7 @@ int main(void)
 {
 	int ch1;
 	int ch2;
+
 	for (ch1 = 0; ch1 < 100; ch1++)
 	{
 		for (ch2 = 0; ch2 < 100; ch2++)
@@ -35,6 +36,6 @@ int main(void)
 		}
 	}
 putchar(10);
-	
+
 return (0);
 }
