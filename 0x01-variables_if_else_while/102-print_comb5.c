@@ -21,15 +21,15 @@ int main(void)
 		{
 			if (ch1 < ch2)
 			{
-				putchar(i / 10 + '0')
-				putchar(i / 10 + '0')
-				putchar(32)
-				putchar(j / 10 + '0')
-				putchar(j / 10 + '0')
+				putchar(i / 10 + '0');
+				putchar(i / 10 + '0');
+				putchar(32);
+				putchar(j / 10 + '0');
+				putchar(j / 10 + '0');
 					if ((i * 100) + j != 9899)
 					{
-						putchar(32)
-						putchar(44)
+						putchar(32);
+						putchar(44);
 					}
 			}
 		}
