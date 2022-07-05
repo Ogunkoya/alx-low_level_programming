@@ -8,7 +8,7 @@
 * Return: Always 0 (Success)
 */
 
-int main(void)
+void  print_alphabet(void)
 {
 for (j = 'a'; j <= 'z'; j++)
 {
