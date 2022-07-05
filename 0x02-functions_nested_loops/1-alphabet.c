@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
-* main - Entry point
+* print_alphabet - will accept no argument
 *
-* Description: 'the program's description'
+* Description: 'the function will print out lower case alphabet'
 *
-* Return: Always 0 (Success)
+* Return: return no value
 */
 
 void print_alphabet(void)
