@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
-* print_alphabet - will accept no argument
+* print_alphabet_x10 - will accept no argument
 *
 * Description: 'the function will print out lower case alphabet'
 *
