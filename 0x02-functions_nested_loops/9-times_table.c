@@ -3,7 +3,8 @@
 /**
 * time_table - print out time tables to 9 times
 *
-* Description: This functio print out times table
+* Description This function print out times table
+*
 * Return: return no value
 */
 
@@ -28,6 +29,8 @@ for (i = 0; i <= 9; i++)
 		{
 			_putchar((k / 10) + '0');
 			_putchar((k % 10) + '0');
+			_putchar(44);
+			_putchar(32);
 		}
 	}
 	_putchar('\n');
