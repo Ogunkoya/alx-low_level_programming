@@ -17,5 +17,5 @@ int r;
 if (n < 0)
 	n = -n;
 r = n % 10;
-return (r + '0');
+return (r);
 }
