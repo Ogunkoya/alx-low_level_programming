@@ -1,11 +1,9 @@
 #include "main.h"
 
 /**
-* time_table - print out time tables to 9 times
+* times_table - print out time tables to 9 times
 *
-* Description This function print out times table
-*
-* Return: return no value
+* Return: void
 */
 
 void times_table(void)
@@ -19,18 +17,25 @@ for (i = 0; i <= 9; i++)
 	for (j = 1; j <= 9; j++)
 	{
 		k = i * j;
-		if (k <= 9)
+		if (x == 0)
 		{
-			_putchar(k + 48);
-			_putchar(44);
+			_putchar(k + '0');
+		}
+		else if (k >= 10)
+		{
 			_putchar(32);
+			_putchar((k / 10) + '0');
+			_putchar((k % 10) + '0');
 		}
 		else
 		{
-			_putchar((k / 10) + '0');
-			_putchar((k % 10) + '0');
-			_putchar(44);
 			_putchar(32);
+			_putchar(32);
+			_putchar(k + '0');
+		}
+		if (x != 9)
+		{
+			_putchar(44);
 		}
 	}
 	_putchar('\n');
