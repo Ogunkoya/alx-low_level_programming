@@ -3,6 +3,7 @@
 /**
 * time_table - print out time tables to 9 times
 *
+* Description: This functio print out times table
 * Return: return no value
 */
 
@@ -17,12 +18,11 @@ for (i = 0; i <= 9; i++)
 	for (j = 1; j <= 9; j++)
 	{
 		k = i * j;
-		_putchar(44);
-		_putchar(32);
 		if (k <= 9)
 		{
-			_putchar(32);
 			_putchar(k + 48);
+			_putchar(44);
+			_putchar(32);
 		}
 		else
 		{
