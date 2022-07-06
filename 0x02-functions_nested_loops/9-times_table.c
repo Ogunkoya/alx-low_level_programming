@@ -14,7 +14,7 @@ int k;
 
 for (i = 0; i <= 9; i++)
 {
-	for (j = 1; j <= 9; j++)
+	for (j = 0; j <= 9; j++)
 	{
 		k = i * j;
 		if (j == 0)
