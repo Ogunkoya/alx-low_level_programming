@@ -1,12 +1,9 @@
 #include "main.h"
 
 /**
-* jack_bauer - check if a letter is lower capital
+* jack_bauer - print out all the minutes in 24 hours
 *
-*
-* Description: 'the function will print out lower case alphabet'
-*
-* Return: return no value
+* Return: no value
 */
 
 void jack_bauer(void)
