@@ -20,24 +20,20 @@ for (i = 0; i <= 9; i++)
 		if (i == 0)
 		{
 			_putchar(k + '0');
-			_putchar(32);
-			_putchar(32);
 		}
 		else if (k >= 10)
 		{
+			_putchar(44);
 			_putchar(32);
 			_putchar((k / 10) + '0');
 			_putchar((k % 10) + '0');
 		}
 		else
 		{
+			_putchar(44);
 			_putchar(32);
 			_putchar(32);
 			_putchar(k + '0');
-		}
-		if (i != 9)
-		{
-			_putchar(44);
 		}
 	}
 	_putchar('\n');
