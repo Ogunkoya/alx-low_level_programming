@@ -20,6 +20,8 @@ for (i = 0; i <= 9; i++)
 		if (i == 0)
 		{
 			_putchar(k + '0');
+			_putchar(32);
+			_putchar(32);
 		}
 		else if (k >= 10)
 		{
