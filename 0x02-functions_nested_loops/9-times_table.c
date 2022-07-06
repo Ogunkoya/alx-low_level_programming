@@ -17,11 +17,11 @@ for (i = 0; i <= 9; i++)
 	for (j = 1; j <= 9; j++)
 	{
 		k = i * j;
-		if (x == 0)
+		if (i == 0)
 		{
 			_putchar(k + '0');
 		}
-		else if (k >= 10)
+		if (k >= 10)
 		{
 			_putchar(32);
 			_putchar((k / 10) + '0');
@@ -33,7 +33,7 @@ for (i = 0; i <= 9; i++)
 			_putchar(32);
 			_putchar(k + '0');
 		}
-		if (x != 9)
+		if (i != 9)
 		{
 			_putchar(44);
 		}
