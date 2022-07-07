@@ -2,7 +2,7 @@
 
 /**
 * print_times_table - print out time tables to 9 times
-*
+* @n: arg int
 * Return: void
 */
 
