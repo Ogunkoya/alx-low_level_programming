@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
-* times_table - print out time tables to 9 times
+* print_times_table - print out time tables to 9 times
 *
 * Return: void
 */
 
-void print_times_table(void)
+void print_times_table(int n)
 {
 int i;
 int j;
