@@ -11,7 +11,7 @@ int main(void)
 	int i;
 
 	i = 0;
-	while (i < 101)
+	while (i <= 99)
 	{
 		if (i % 3 == 0 && i % 5 == 0)
 		{
@@ -29,7 +29,7 @@ int main(void)
 		{
 			printf("%d", i);
 		}
-		if (i != 100)
+		if (i != 99)
 		{
 			printf(" ");
 		}
