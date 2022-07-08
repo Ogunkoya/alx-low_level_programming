@@ -12,7 +12,7 @@ int main(void)
 
 	for (divisor = 2; divisor < num; divisor++)
 	{
-		if (x % py == 0)
+		if (num % divisor == 0)
 		{
 			num = num / divisor;
 		}
