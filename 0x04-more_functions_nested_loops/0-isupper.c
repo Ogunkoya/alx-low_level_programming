@@ -8,11 +8,10 @@
 
 int _isupper(int c)
 {
-	int alp;
 	int result;
 
 	result = 0;
-	if (alp >= 'A' && alp <= 'Z')
+	if (c >= 'A' && c <= 'Z')
 	{
 		result = 1;
 	}
