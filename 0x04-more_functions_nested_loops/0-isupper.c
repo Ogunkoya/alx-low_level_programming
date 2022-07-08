@@ -12,7 +12,7 @@ int _isupper(int c)
 	int result;
 
 	result = 0;
-	if (alp >= 65 && alp <= 90)
+	if (alp >= 'A' && alp <= 'Z')
 	{
 		result = 1;
 	}
