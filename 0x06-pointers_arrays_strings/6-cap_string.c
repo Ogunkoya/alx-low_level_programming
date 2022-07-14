@@ -8,12 +8,11 @@
 
 char *cap_string(char *str)
 {
-	char sep[];
 	int flag;
 	int i;
 	int j;
-
-	sep[] = ",\t;\n; .!?\"(){}";
+	char sep[] = ",\t;\n; .!?\"(){}";
+	
 	i = 0;
 	while (str[i] != '\0')
 	{
