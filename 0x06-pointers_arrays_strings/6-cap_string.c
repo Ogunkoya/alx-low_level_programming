@@ -13,7 +13,7 @@ char *cap_string(char *str)
 	int i;
 	int j;
 
-	sep = ",\t;\n; .!?\"(){}";
+	sep[] = ",\t;\n; .!?\"(){}";
 	i = 0;
 	while (str[i] != '\0')
 	{
