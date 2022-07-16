@@ -23,5 +23,6 @@ else
 s[i] -= 13;
 }
 }
+}
 return (s);
 }
