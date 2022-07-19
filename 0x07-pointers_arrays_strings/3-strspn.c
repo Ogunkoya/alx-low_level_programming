@@ -26,6 +26,7 @@ break;
 if (!(*--accept))
 {
 break;
+}
 accept = t;
 }
 }
