@@ -29,6 +29,5 @@ break;
 }
 accept = t;
 }
-}
 return (c);
 }
