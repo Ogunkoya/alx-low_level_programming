@@ -28,5 +28,6 @@ if (!(*--accept))
 break;
 accept = t;
 }
+}
 return (c);
 }
