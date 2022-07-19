@@ -29,5 +29,5 @@ needle = fn;
 res++;
 haystack = res;
 }
-return (NULL);
+return (0);
 }
