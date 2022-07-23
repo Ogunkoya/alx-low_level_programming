@@ -22,6 +22,6 @@ for (i = 1; i < argc; i++)
 {
 prod *= atoi(argv[i]);
 }
-printf("%d\n", val);
+printf("%d\n", prod);
 return (0);
 }
