@@ -29,9 +29,9 @@ return (NULL);
 }
 j = 0;
 while (j <= i)
-j++;
 {
 strout[j] = str[j];
+j++;
 }
 return (strout);
 }
