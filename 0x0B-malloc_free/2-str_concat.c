@@ -21,17 +21,13 @@ if (s2 == NULL)
 {
 s2 = "";
 }
-i = 0;
-while (s1[i] != '\0')
+for (i = 0; s1[i] != '\0'; i++)
 {
 ;
-i++;
 }
-j = 0;
-while (s2[j] != '\0')
+for (j = 0; s2[j] != '\0'; j++)
 {
 ;
-j++;
 }
 strout = malloc(sizeof(char) * (i + j + 1));
 if (strout == NULL)
@@ -39,11 +35,9 @@ if (strout == NULL)
 free(strout);
 return (NULL);
 }
-k = 0;
-while (k < i)
+for (k = 0; k < i; k++)
 {
 strout[k] = s1[k];
-k++;
 }
 limit = j;
 for (j = 0; j <= limit; k++, j++)
