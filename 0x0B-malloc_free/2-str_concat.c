@@ -46,12 +46,9 @@ strout[k] = s1[k];
 k++;
 }
 limit = j;
-j = 0;
-while (j <= limit)
+for (j = 0; j <= limit; k++, j++)
 {
 strout[k] = s2[j];
-J++;
-k++;
 }
 return (strout);
 }
