@@ -19,9 +19,9 @@ return (NULL);
 i = 0;
 while (str[i] != '\0')
 {
-strout = (char *)malloc(sizeof(char) * (i + 1));
-i++;
+;
 }
+strout = (char *)malloc(sizeof(char) * (i + 1));
 if (strout == NULL)
 {
 return (NULL);
