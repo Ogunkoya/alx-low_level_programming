@@ -1,5 +1,4 @@
 #include "main.h"
-#include <stdlib.h>
 
 /**
 * argstostr - concatenates all the arguments of a program.
@@ -43,7 +42,8 @@ aout[ia] = '\n';
 i++;
 ia++;
 j = 0;
-}										if (ia < c - 1)
+}
+if (ia < c - 1)
 {
 aout[ia] = av[i][j];
 }
