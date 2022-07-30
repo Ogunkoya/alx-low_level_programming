@@ -71,26 +71,15 @@ _putchar('0' + resp);
 * Return: int
 */
 
-int main(int argc, char *argv[])
+int main(int argc, char const *argv[])
 {
-unsigned long mul;
-int i, j;
-
+(void)argc;
 if (argc != 3)
 {
 _puts("Error ");
+exit(98);
 }
-for (i = 1; i < argc; i++)
-{
-for (j = 0; argv[i][j] != '\0'; j++)
-{
-if (argv[i][j] > 57 || argv[i][j] < 48)
-{
-print_int("Error ");
-}
-}
-}
-mul = atol(argv[1]) *  atol(argv[2]);
-printf("%lu\n", mul);
+print_int(_atoi(argv[1]) * _atoi(argv[2]));
+_putchar('\n');
 return (0);
 }
