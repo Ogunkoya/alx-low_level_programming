@@ -38,7 +38,7 @@ free(cutie_dog->name);
 free(cutie_dog);
 return (NULL);
 }
-cutie_dog->name = _strcpy(cutie_dog->name, name)
+cutie_dog->name = _strcpy(cutie_dog->name, name);
 cutie_dog->owner = _strcpy(cutie_dog->owner, owner);
 cutie_dog->age = age;
 }
