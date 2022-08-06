@@ -4,8 +4,8 @@
 #include <stdarg.h>
 
 int sum_them_all(const unsigned int n, ...);
-void print_numbers(const char *sep, const unsigned int n, ...);
-void print_strings(const char *sep, const unsigned int n, ...);
+void print_numbers(const char *seperator, const unsigned int n, ...);
+void print_strings(const char *seperator, const unsigned int n, ...);
 void print_all(const char * const format, ...);
 
 /**
@@ -21,10 +21,6 @@ void (*f)(va_list);
 }
 checker;
 
-void print_int(va_list list);
-void print_float(va_list list);
-void print_char(va_list list);
-void print_str(va_list list);
 void print_c(va_list);
 void print_i(va_list);
 void print_f(va_list);
