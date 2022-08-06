@@ -54,11 +54,11 @@ va_list list;
 int i = 0, j = 0;
 char *sep = "";
 printTypeStruct printType[] = {
-{ "i", print_int },
-{ "f", print_float },
-{ "c", print_char },
-{ "s", print_str },
-{NULL, NULL}
+	{ "i", print_int },
+	{ "f", print_float },
+	{ "c", print_char },
+	{ "s", print_str },
+	{NULL, NULL}
 };
 va_start(list, format);
 while (format && format[i])
