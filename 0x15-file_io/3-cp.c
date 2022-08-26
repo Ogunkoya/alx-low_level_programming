@@ -1,7 +1,5 @@
 #include "main.h"
 
-
-
 /**
 * main - copies the content of a file to another file
 * @argc: number of arguments passed to the program
@@ -52,6 +50,7 @@ if (n < 0)
 {
 dprintf(STDERR_FILENO, "Error: Can't close fd %d\n", fd_w);
 exit(100);
+}
 }
 return (0);
 }
